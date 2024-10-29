@@ -1,0 +1,87 @@
+    .fontColor {
+        color: rgb(189, 148, 42) !important;
+    }
+
+    .fontColorParagraph {
+        color: rgba(201, 184, 163, 0.658) !important;
+
+    }
+
+    .colorTitleCard {
+        color: #74642f;
+    }
+
+    .nn {
+        background-color: #f3f2ec !important;
+    }
+
+    .font_famely {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50px;
+        /* العرض */
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        /* وضعهم في المنتصف */
+        transform: translateY(-50%);
+
+    }
+    .colorBackgroundImage {
+        background-color: #edebe4 !important;
+    }
+    .naav .nav-link.active {
+        border-bottom: 2px solid #74642f;
+        /* البوردر السفلي الأحمر عند التفعيل */
+    }
+    .naav .nav-link {
+        background-color: #f3f2ec !important;
+        color: black !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        border: none;
+        /* إزالة الحدود */
+        box-shadow: none;
+        /* إزالة أي ظل */
+    }
+
+    .btn-custom {
+        background-color: transparent;
+        /* لا خلفية */
+        border: none;
+        /* لا حدود */
+        color: black;
+        /* لون النص (يمكنك تغييره) */
+    }
+
+    .btn-custom:hover {
+        background-color: rgba(0, 123, 255, 0.1);
+        /* تأثير عند التحويم (اختياري) */
+    }
+ 
+    .icon {
+        color: black;
+        /* لون الأيقونات */
+        font-size: 24px;
+        /* حجم الأيقونات */
+        transition: color 0.3s;
+        /* تأثير الانتقال عند التحويم */
+    }
+
+    .icon:hover {
+        color: #ccc;
+        /* تغيير لون الأيقونات عند التحويم */
+    }
+    .borderColor {
+        --bs-border-opacity: 1;
+        border-color: #74642f !important;
+    }
+
+    @media (min-width:768px) {
+        .hero {
+            height: calc(100vh - 60px) !important;
+        }
+    }
